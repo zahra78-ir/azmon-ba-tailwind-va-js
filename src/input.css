@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  font-family: Arial, sans-serif;
+}
+
+h1,
+h2 {
+  color: #333;
+}
+
+#quiz-builder,
+#quiz-taker {
+  margin: 20px;
+}
+
+#question-list {
+  list-style-type: none;
+}
